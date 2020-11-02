@@ -39,8 +39,4 @@
 		<PackageReference Include="NLog" Version="4.7.5" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="Extensions\" />
-	</ItemGroup>
-
 </Project>

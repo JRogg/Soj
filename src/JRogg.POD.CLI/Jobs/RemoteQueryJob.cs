@@ -1,4 +1,14 @@
-﻿namespace JRogg.POD.CLI.Jobs
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using AngleSharp.Html.Dom;
+using AngleSharp.Html.Parser;
+using CefSharp;
+using CefSharp.OffScreen;
+using JRogg.POD.CLI.Extensions;
+using NLog;
+
+namespace JRogg.POD.CLI.Jobs
 {
 	public class RemoteQueryJob
 	{

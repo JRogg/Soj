@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
+using CefSharp;
+using CefSharp.OffScreen;
 
 namespace JRogg.POD.CLI.Extensions
 {
